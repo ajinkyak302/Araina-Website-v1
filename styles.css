@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #68007d;
+  color: #000000;
+  background-color: #ffffff;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -15,14 +15,11 @@ body {
   padding-bottom: 0;
 }
 
-.navbar-header button.navbar-toggle,
-.navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+#logo {
+  background: url("araina_logo.jpg") no-repeat;
+  height: 500px;
+  width: 100%;
+  background-position:center ;
 }
 
 #call-btn>a {
@@ -70,6 +67,7 @@ body {
 
 #testimonials {
   font-style: italic;
+  margin-top: 20px;
 }
 
 #testimonials p:nth-child(2) {
@@ -77,14 +75,6 @@ body {
 }
 
 /* END FOOTER */
-
-
-
-/* HOME PAGE */
-.container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
-}
 
 #instagram-tile,
 #facebook-tile,
@@ -210,58 +200,13 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
-  }
-
-  /* End Home Page */
-
   #testimonials {
-    margin-top: 10px;
     text-align: center;
   }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-
-  /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-
-  .navbar-brand h1 {
-    /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw;
-    /* 1vw = 1% of viewport width */
-  }
-
-  .navbar-brand p {
-    /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-  }
-
-  .navbar-brand p img {
-    /* Star-K */
-    height: 20px;
-  }
-
-  #collapsable-nav a {
-    /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-
-  #collapsable-nav a span {
-    /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-  }
 
   #call-btn>a {
     font-size: 1.5em;
@@ -300,11 +245,6 @@ body {
   /* End Footer */
 
   /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
-
   #instagram-tile,
   #facebook-tile {
     width: 360px;
@@ -322,6 +262,13 @@ body {
   .menu-item-description {
     text-align: center;
     ;
+  }
+
+  #logo {
+    background: url("araina_logo-xs.jpg") no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position:center ;
   }
 }
 
